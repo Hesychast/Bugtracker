@@ -1,5 +1,5 @@
 <?php
-namespace Bugtracker\Taxonomies;
+namespace Bugtracker\Lib\Taxonomies;
 /**
  * The Project class registers the `projects` taxonomy, for use with 'post'.
  */
