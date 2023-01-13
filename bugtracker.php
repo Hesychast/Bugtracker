@@ -13,7 +13,7 @@
  */
 require_once dirname(__FILE__) . '/autoloader.php';
 
-use Bugtracker\Taxonomies\Projects;
+use Bugtracker\Lib\Taxonomies\Projects;
 
 add_action( 'init', array( Projects::class, 'projects_init' ) );
 add_filter( 'term_updated_messages', array( Projects::class, 'projects_updated_messages' ) );
