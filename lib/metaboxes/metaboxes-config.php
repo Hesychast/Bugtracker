@@ -21,7 +21,7 @@ return $mbx_config = array(
         'template'   => 'metabox-input.php',
         'form_attrs' => array(
             'type' => 'date',
-            'class' => 'ticket__number',
+            'class' => 'ticket__date',
         )
     ),
     array(
@@ -32,7 +32,7 @@ return $mbx_config = array(
         'priority'   => 'default',
         'template'   => 'metabox-textarea.php',
         'form_attrs' => array(
-            'class' => 'ticket__number',
+            'class' => 'ticket__remark',
             'rows'  => '5',
         )
     )
