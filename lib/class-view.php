@@ -10,7 +10,7 @@ class View
 	/**
 	 * Constructor
 	 *
-	 * @param string $template_dir Path to the directory of template files.
+	 * @param string $templates_dir Path to the directory of template files.
 	 */
 	function __construct( $templates_dir )
 	{
@@ -21,6 +21,7 @@ class View
 	 * Renders specified view
 	 *
 	 * @param string $template A template file name.
+	 * @param array $params Parameters passed to the template.
 	 * @return string
 	 */
 	public function render( string $template, array $params ) {
